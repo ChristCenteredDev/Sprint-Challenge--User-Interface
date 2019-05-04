@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -144,3 +144,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Top Header Area */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 15px 0 30px 0;
+}
+
+nav a {
+    padding: 0 38px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#jumbo-img {
+    padding-bottom: 20px;
+}
+
+/* 10 Boxes Area */
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+/* About Page */
