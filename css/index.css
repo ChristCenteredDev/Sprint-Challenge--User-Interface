@@ -239,6 +239,11 @@ section.inner-container {
 
 .inner-half h2, .inner-half p {
     padding-top: 20px;
+    margin: 0;
+}
+
+.inner-half p {
+    padding-bottom: 20px;
 }
 
 button {
