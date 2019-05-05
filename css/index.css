@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +143,123 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Top Header Area */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 15px 0 30px 0;
+}
+
+nav a {
+    padding: 0 38px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#jumbo-img {
+    padding-bottom: 20px;
+}
+
+/* 10 Boxes Area */
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+/* About Page */
+
+#jumbo-about {
+    margin-bottom: 20px;
+}
+
+.about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.inner-container {
+    margin: 0 auto;
+    width: 95%;
+}
+
+section.inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-half {
+    width: 48%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.inner-half h2, .inner-half p {
+    padding-top: 20px;
+    margin: 0;
+}
+
+.inner-half p {
+    padding-bottom: 20px;
+}
+
+button {
+	cursor: pointer;
+	display: block;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background: #FFF;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+
+
+/* Lets work together */
+
+.lets-work {
+    padding: 10px 0 30px 0;
 }
